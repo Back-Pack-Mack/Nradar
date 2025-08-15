@@ -1,0 +1,37 @@
+{
+  "name": "nradar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/g2": "^5.3.3",
+    "@douyinfe/semi-icons": "^2.85.0",
+    "@douyinfe/semi-ui": "^2.85.0",
+    "@types/crypto-js": "^4.2.2",
+    "crypto-js": "^4.2.0",
+    "gm-crypto": "^0.1.12",
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.8.0",
+    "styled-components": "^6.1.19",
+    "tiger": "^0.2.1",
+    "url": "^0.11.4",
+    "uuid": "^11.1.0",
+    "whirlpool-hash": "^1.1.6",
+    "xlsx": "^0.18.5",
+    "zustand": "^5.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^4.9.5",
+    "vite": "^5.1.4"
+  }
+}
